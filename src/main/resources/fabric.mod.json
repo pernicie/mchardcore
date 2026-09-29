@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "hardcorereset",
+	"version": "${version}",
+	"name": "Hardcore Reset",
+	"description": "Añade a la pantalla de muerte un botón para respawnear en un mundo nuevo (junto a Espectar y Menú principal).",
+	"authors": ["Tú"],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"mixins": [
+		{
+			"config": "hardcorereset.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1",
+		"java": ">=25"
+	}
+}
